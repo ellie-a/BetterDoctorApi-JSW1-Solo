@@ -1,6 +1,6 @@
 # _BetterDoctors Api_
 
-#### _{A web app that access the BetterDoctors Api and for the user to put in a symptom and the api to return a list of available doctors in the area}_
+
 
 #### By _**Ellie Angell**_
 
@@ -9,6 +9,9 @@
 
 ## Description:
 
+A web app that access the BetterDoctors Api and for the user to put in a symptom and the api to return a list of available doctors in the area
+
+See it live [here](https://ellie-a.github.io//BetterDoctorApi-JSW1-Solo)
 
 ## Setup/Installation Requirements
 
