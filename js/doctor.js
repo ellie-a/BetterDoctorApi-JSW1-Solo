@@ -1,5 +1,5 @@
-function Doctor(docName) {
- this.docName = docName;
+function Doctor() {
+
 }
 
 exports.doctorModule = Doctor;
