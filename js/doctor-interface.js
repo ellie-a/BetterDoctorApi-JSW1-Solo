@@ -16,8 +16,10 @@ $(document).ready(function(){
         console.log(doctors);
 
         doctors.forEach(function(doctor){
-          var name = doctor.profile.first_name + " " + doctor.profile.last_name
-          $('.doctors').append("<li>" + name + "</li>");
+          var name = doctor.profile.first_name + " " + doctor.profile.last_name + " " + doctor.profile.title;
+          var image = doctor.profile.image_url;
+          var bio = doctor.profile.bio;
+          $('.doctors').append("<li>" + name, "<img src=" + image + "/>", bio + "</li>");
         });
 
 
@@ -27,9 +29,3 @@ $(document).ready(function(){
   });
     });
 });
-
-
-// for (i = 0; i <= doctors.length; i++) {
-//   var name = doctors[i].name;
-
-// }
