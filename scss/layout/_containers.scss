@@ -1,0 +1,10 @@
+.doctors {
+  font-family: $main;
+  .doctorResult {
+    margin-top: 5%;
+    h3 {
+      color: $text;
+      font-size: 105%;
+    }
+  }
+}

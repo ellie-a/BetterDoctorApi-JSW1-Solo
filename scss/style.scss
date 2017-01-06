@@ -1,0 +1,11 @@
+@import "base/index";
+@import "components/index";
+@import "layout/index";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+}

@@ -1,0 +1,19 @@
+label, input,button {
+  font-family: $main;
+  color: darken($text, 35%);
+
+}
+
+label, input {
+  margin-top: 10%;
+  margin-right: 3%;
+}
+button {
+  background-color: $grey;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 45%;
+  padding: 2.5%;
+}

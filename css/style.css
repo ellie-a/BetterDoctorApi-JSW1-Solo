@@ -1,0 +1,69 @@
+/*Universal Selectors****************/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, section, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+label, input, button {
+  font-family: "Muli", sans-serif;
+  color: #5f5867; }
+
+label, input {
+  margin-top: 10%;
+  margin-right: 3%; }
+
+button {
+  background-color: #BFD0E0;
+  border: none;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 45%;
+  padding: 2.5%; }
+
+.doctors {
+  font-family: "Muli", sans-serif; }
+  .doctors .doctorResult {
+    margin-top: 5%; }
+    .doctors .doctorResult h3 {
+      color: #B8B3BE;
+      font-size: 105%; }
+
+.header {
+  margin-top: 10%;
+  font-family: "Muli", sans-serif; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #81F4E1; }
+
+/*# sourceMappingURL=style.css.map */
