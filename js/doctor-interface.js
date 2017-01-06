@@ -14,13 +14,22 @@ $(document).ready(function(){
     console.log(result);
         var doctors = result.data;
         console.log(doctors);
-        // for (i = 0; i <= doctors.length; i++) {
-        //   var name = doctors[i].name;
-          $('.doctors').append("<li>" + doctors + "</li>");
-        // }
+
+        doctors.forEach(function(doctor){
+          var name = doctor.profile.first_name + " " + doctor.profile.last_name
+          $('.doctors').append("<li>" + name + "</li>");
+        });
+
+
     })
     .fail(function(error){
     console.log("fail");
   });
     });
 });
+
+
+// for (i = 0; i <= doctors.length; i++) {
+//   var name = doctors[i].name;
+
+// }
