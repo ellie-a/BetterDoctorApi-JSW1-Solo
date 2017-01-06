@@ -32,7 +32,7 @@ See it live [here](https://ellie-a.github.io//BetterDoctorApi-JSW1-Solo)
 
 ## Known Bugs
 
-_There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something I have not._
+_Does not work on GhPages due to the .gitignore file with the build in it._
 
 ## Support and contact details
 
