@@ -48,7 +48,12 @@ button {
   padding: 2.5%; }
 
 .doctors {
-  font-family: "Muli", sans-serif; }
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
   .doctors .doctorResult {
     margin-top: 5%; }
     .doctors .doctorResult h3 {

@@ -1,6 +1,13 @@
 .doctors {
   font-family: $main;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   .doctorResult {
+    // width: 50px;
+    // height: 100px;
     margin-top: 5%;
     h3 {
       color: $text;
